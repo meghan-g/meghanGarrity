@@ -1,0 +1,248 @@
+/****** BASE STYLES ******/
+* {
+	box-sizing: border-box;
+}
+
+h1, h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2, h4, h5, h6, p {
+	color: #095256;
+    font-family: 'Roboto', sans-serif;
+}
+
+#work {
+	height: 1450px;
+}
+
+#about {
+	height: 850px;
+}
+
+#contact {
+	height: 450px;
+}
+
+/****** GRID ******/
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1400px;
+}
+
+.half-width {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 700px;
+}
+
+.third-width {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 350px;
+}
+
+/****** HEADER ******/
+
+header {
+	background: url("../img/sky-home.png");
+	background-size: cover;
+	height: 800px;
+}
+
+header h3 {
+	color: #ff6105;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 60px 25px;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+	color: #ff6105;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 60px 25px;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+header h1 {
+	color: #ff6105;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 280px;
+}
+
+header h2 {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 50px;
+	padding: 0px 0 20px 100px;
+	text-align: center;
+	width: 1300px;
+}
+
+/****** WORK ******/
+
+#work img {
+	border: 1px solid #b7b7b7;
+	height: 350px;
+	margin-bottom: 30px;
+	width: 550px;
+}
+
+#work h4 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#work h5 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#work h6 {
+	font-size: 16px;
+	overflow: auto;
+	text-align: center;
+}
+
+#work a {
+	color: #095256;
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#work p {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+/****** EXTRA WORK ******/
+
+#extra-work img {
+	border: 1px solid #b7b7b7;
+	height: 350px;
+	margin-bottom: 50px;
+	width: 550px;
+}
+#extra-work h4 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 5px 5px;
+	text-align: center;
+}
+
+#extra-work h5 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#extra-work h6 {
+	font-size: 16px;
+	overflow: auto;
+	text-align: center;
+}
+
+#extra-work a {
+	color: #095256;
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#extra-work p {
+	font-size: 24px;
+	font-weight: normal;
+}
+/****** ABOUT ******/
+
+#about {
+	background: #087e8b;
+}
+
+#about img#aboutme-img {
+	border: 3px solid #b7b7b7;
+	border-radius: 50%;
+	margin: 80px 0 0 150px;
+}
+
+#about h4 {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#about h5 {
+	color: #ff6105;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#about p {
+	color: white;
+	font-size: 24px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+	background: #095156;
+}
+
+#contact .full-width {
+	padding: 50px 0;
+}
+
+#contact .third-width {
+	margin-left: 100px;
+}
+
+#contact h4 {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 50px;
+	text-align: center;
+}
+
+#contact h5 {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 20px;
+	text-align: center;
+}
+
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+
+#contact p {
+	color: white;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center; 
+}
+
+
+#contact ul li{
+	display: inline-block;
+	padding: 10px;
+}
